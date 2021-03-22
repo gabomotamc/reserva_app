@@ -91,7 +91,7 @@ class UsuarioController extends Controller
 
                 Auth::loginUsingId($objUsuario[0]->id);
                 $sesion = Auth::user();
-                return redirect()->route('verPerfil')->with( ['datoSesion' => $sesion] );
+                return redirect()->route('verPerfil');
 
                
             }else{
