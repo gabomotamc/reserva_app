@@ -5,8 +5,12 @@ storage > logs > query.log
 
 /* Registro y login */
 
-Crear usuario.
+> Haciendo un PULL deberá Crear usuario.
 Valida de datos solo como requeridos (sin expresiones regulares)
+
+> Desde: http://c1840362.ferozo.com/reserva/public/
+Usuario: gabomota.me@gmail.com
+Clave: 123qwe
 
 
 # ===================================== #
