@@ -66,7 +66,7 @@ class UsuarioController extends Controller
         $usuario->save();
         
         $msj = 'Te has registrado exitosamente, ahora puedes iniciar sesión con el correo: ('.$request->correo.').';
-        return redirect()->route('acceder')->with('success', );
+        return redirect()->route('acceder')->with('success', $msj);
     }
     public function autenticarLogueo(Request $request)
     {
@@ -91,7 +91,7 @@ class UsuarioController extends Controller
 
                 Auth::loginUsingId($objUsuario[0]->id);
                 $sesion = Auth::user();
-                return redirect()->route('verPerfil')->with( ['datoSesion' => $sesion] );
+                return redirect()->route('verPerfil');
 
                
             }else{
