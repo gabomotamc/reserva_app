@@ -6,7 +6,7 @@ storage > logs > query.log
 /* Registro y login */
 
 Crear usuario.
-Valida de datos solo como requeridos.
+Valida de datos solo como requeridos (sin expresiones regulares)
 
 
 # ===================================== #
